@@ -125,7 +125,7 @@ shutter.on('click', () => {
 	}).catch((err) => {
 
 		WhenVisible().then(() => {
-			// errorr!!!
+			// error!!!
 			console.log(err)
 
 			MusicPosition.position--
